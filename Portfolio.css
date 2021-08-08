@@ -1,7 +1,18 @@
 .section {
-    background-color: aqua;
+    background-color: #5e878a;
+    font-family: "lucida sans unicode", "lucida grande", "sans-serif";
 
 }
 
+.resize {
+    height: 25px;
+    width: 25px;
+}
 
+.fonts {
+    font-size: 14px;
+    font-weight: bold;
+    font-family: cursive, monaco, monospace;
+
+}
 
