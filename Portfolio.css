@@ -74,6 +74,12 @@ body {
   text-align: center;
 }
 
+#contact {
+  text-align: center;
+  letter-spacing: 1.5px;
+  word-spacing: 2px;
+}
+
 @media screen and (max-width: 992px) {
   .section {
     width: 50%;
