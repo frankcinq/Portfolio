@@ -2,9 +2,8 @@
   border-bottom: 10px solid black;
   width: 100%;
   color: black;
-  display: inline-flex;
   font-family: "Times New Roman", Times, serif;
-  background-color: #9d9e9c;
+  background-color: #cbcccb;
 }
 
 #name {
@@ -17,6 +16,23 @@
   text-align: right;
   justify-content: right;
   color: white;
+}
+
+#aboutme2 {
+  float: right;
+  list-style: none;
+  text-align: right;
+  justify-content: right;
+  display: inline-flex;
+  padding: 10px;
+  margin: 5px;
+}
+
+li {
+  padding-left: 20px;
+  list-style: none;
+  display: inline-flex;
+  font-size: 20px;
 }
 .section {
   font-family: "lucida sans unicode", "lucida grande", "sans-serif";
@@ -31,13 +47,23 @@
 }
 
 a:hover {
-  transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in-out;
   opacity: 0.6;
 }
 
 .contacts {
   height: 40px;
   width: 40px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  text-decoration: none;
 }
 
 .self {
@@ -78,16 +104,16 @@ body {
 
 .bottom {
   text-align: center;
-  background-color: #9d9e9c;
-  height: 180px;
+  background-color: #cbcccb;
+  height: 175px;
 }
 
 #contact {
   font-size: 14.5px;
   text-align: center;
-  letter-spacing: 1.5px;
-  word-spacing: 2px;
+  letter-spacing: 1px;
   color: black;
+  padding-left: 20px;
 }
 
 @media screen and (max-width: 992px) {
