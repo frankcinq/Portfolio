@@ -1,9 +1,10 @@
 .header {
-  border-bottom: 10px solid black;
+  border-bottom: 7px solid black;
   width: 100%;
   color: black;
   font-family: "Times New Roman", Times, serif;
   background-color: #cbcccb;
+  height: 260px;
 }
 
 #name {
@@ -32,7 +33,7 @@ li {
   padding-left: 20px;
   list-style: none;
   display: inline-flex;
-  font-size: 20px;
+  font-size: 24px;
 }
 .section {
   font-family: "lucida sans unicode", "lucida grande", "sans-serif";
@@ -106,6 +107,7 @@ body {
   text-align: center;
   background-color: #cbcccb;
   height: 175px;
+  border-bottom: 4px solid black;
 }
 
 #contact {
