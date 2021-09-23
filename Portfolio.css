@@ -16,7 +16,7 @@
   display: inline-block;
   text-align: right;
   justify-content: right;
-  color: white;
+  color: black;
 }
 
 #aboutme2 {
@@ -45,6 +45,13 @@ li {
 .projects {
   text-align: center;
   font-size: 28px;
+  color: black;
+}
+
+.fonts {
+  color: black;
+  padding: 50px;
+  text-align: center;
 }
 
 a:hover {
@@ -118,22 +125,29 @@ body {
   padding-left: 20px;
 }
 
-@media screen and (max-width: 992px) {
-  .section {
-    width: 50%;
+@media only screen and (mad-width: 992px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+  body {
+    display: block;
   }
-
-  header {
-    background: #772014;
+  .content {
+    display: block;
   }
 }
 
-@media screen and (max-width: 768px) {
-  .section {
-    width: 100%;
+@media only screen and (mad-width: 768px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+  body {
+    display: block;
   }
+  .content {
+    display: block;
+  }
+}
 
-  header {
-    background: #8ac4ff;
+@media only screen and (mad-width: 667px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+  body {
+    display: block;
+  }
+  .content {
+    display: block;
   }
 }
