@@ -2,9 +2,9 @@
   border-bottom: 7px solid black;
   width: 100%;
   color: black;
-  font-family: "Times New Roman", Times, serif;
+  font-family: monospace, sans-serif;
   background-color: #cbcccb;
-  height: 260px;
+  height: 265px;
 }
 
 #name {
@@ -36,7 +36,7 @@ li {
   font-size: 24px;
 }
 .section {
-  font-family: "lucida sans unicode", "lucida grande", "sans-serif";
+  font-family: monospace, sans-serif;
   text-align: center;
   background-color: black;
   opacity: 0.9;
@@ -44,7 +44,7 @@ li {
 
 .projects {
   text-align: center;
-  font-size: 28px;
+  font-size: 30px;
   color: black;
 }
 
@@ -80,10 +80,14 @@ a:visited {
   text-align: right;
 }
 
+img {
+  max-width: 100%;
+}
+
 body {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: bold;
-  font-family: cursive, monaco, monospace;
+  font-family: monospace, sans-serif;
   color: white;
 }
 
@@ -99,7 +103,7 @@ body {
 
 .background {
   width: 100%;
-  background-image: url("https://print2metal.com/wp-content/uploads/2020/07/luca-bravo-O453M2Liufs-unsplash-scaled-e1593734931900.jpg");
+  background-image: url("https://images.unsplash.com/photo-1518837695005-2083093ee35b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80");
   background-size: cover;
   background-position: center;
 }
@@ -118,7 +122,7 @@ body {
 }
 
 #contact {
-  font-size: 14.5px;
+  font-size: 17px;
   text-align: center;
   letter-spacing: 1px;
   color: black;
@@ -128,26 +132,42 @@ body {
 @media only screen and (mad-width: 992px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
   body {
     display: block;
+    width: 100%;
   }
   .content {
     display: block;
+    width: 100%;
   }
 }
 
 @media only screen and (mad-width: 768px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
   body {
     display: block;
+    width: 100%;
   }
   .content {
     display: block;
+    width: 100%;
   }
 }
 
-@media only screen and (mad-width: 667px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
-  body {
-    display: block;
+@media only screen and (max-width: 960px) {
+  .main .bigColumn {
+    width: 100%;
   }
-  .content {
-    display: block;
+  .main .adColumn {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 567px) {
+  .main .bigColumn {
+    width: 100%;
+  }
+  .main .adColumn {
+    display: none;
+  }
+  .image-size {
+    width: 100%;
   }
 }
