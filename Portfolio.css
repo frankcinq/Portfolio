@@ -81,7 +81,7 @@ a:visited {
 }
 
 img {
-  max-width: 90%;
+  max-width: 100%;
 }
 
 body {
@@ -103,7 +103,7 @@ body {
 
 .background {
   width: 100%;
-  background-image: url("https://images.unsplash.com/photo-1518837695005-2083093ee35b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80");
+  background-image: url("https://print2metal.com/wp-content/uploads/2020/07/luca-bravo-O453M2Liufs-unsplash-scaled-e1593734931900.jpg");
   background-size: cover;
   background-position: center;
 }
